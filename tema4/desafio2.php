@@ -52,7 +52,7 @@
         do {
           echo $numero . "<br/>";
           $numero += 2;
-        } while ($numero !== 200);
+        } while ($numero <= 200);
 
         ?>
     </ul>
