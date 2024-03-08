@@ -49,14 +49,10 @@
         <?php
         $numero = 100;
 
-        while (true) {
-          
+        do {
           echo $numero . "<br/>";
-          if ($numero === 200) {
-            break;
-          };
           $numero += 2;
-        };
+        } while ($numero !== 200);
 
         ?>
     </ul>
